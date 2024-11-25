@@ -6544,16 +6544,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 92.71) (xy 162.56 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72a8b54a-0884-4389-9385-359f9c710f47")
-	)
-	(wire
-		(pts
 			(xy 167.64 128.27) (xy 170.18 128.27)
 		)
 		(stroke
@@ -6604,26 +6594,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 104.14) (xy 153.67 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97a6b6f7-def3-4164-a1cd-8c037286c490")
-	)
-	(wire
-		(pts
-			(xy 153.67 104.14) (xy 153.67 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a62556bd-812d-412a-ab12-87403872ce06")
-	)
-	(wire
-		(pts
 			(xy 34.29 167.64) (xy 34.29 165.1)
 		)
 		(stroke
@@ -6641,16 +6611,6 @@
 			(type default)
 		)
 		(uuid "b948c686-4360-406f-ba22-0bf65b560042")
-	)
-	(wire
-		(pts
-			(xy 162.56 76.2) (xy 148.59 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba0b392f-86e1-4db6-8fc6-876a1b4393c4")
 	)
 	(wire
 		(pts
@@ -6731,16 +6691,6 @@
 			(type default)
 		)
 		(uuid "e6a21797-631b-4bfd-a64b-0c75e2a6ec71")
-	)
-	(wire
-		(pts
-			(xy 162.56 92.71) (xy 162.56 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0ada5b4-1f11-48c2-b99f-e61f1892f76d")
 	)
 	(symbol
 		(lib_id "power:GND")
