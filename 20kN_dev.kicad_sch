@@ -6394,6 +6394,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 132.08) (xy 123.19 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16042cd4-0e44-40f1-8bfd-411de1dc5c5c")
+	)
+	(wire
+		(pts
 			(xy 82.55 160.02) (xy 86.36 160.02)
 		)
 		(stroke
@@ -6534,6 +6544,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 92.71) (xy 162.56 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a8b54a-0884-4389-9385-359f9c710f47")
+	)
+	(wire
+		(pts
 			(xy 167.64 128.27) (xy 170.18 128.27)
 		)
 		(stroke
@@ -6584,6 +6604,26 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 104.14) (xy 153.67 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a6b6f7-def3-4164-a1cd-8c037286c490")
+	)
+	(wire
+		(pts
+			(xy 153.67 104.14) (xy 153.67 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a62556bd-812d-412a-ab12-87403872ce06")
+	)
+	(wire
+		(pts
 			(xy 34.29 167.64) (xy 34.29 165.1)
 		)
 		(stroke
@@ -6601,6 +6641,16 @@
 			(type default)
 		)
 		(uuid "b948c686-4360-406f-ba22-0bf65b560042")
+	)
+	(wire
+		(pts
+			(xy 162.56 76.2) (xy 148.59 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba0b392f-86e1-4db6-8fc6-876a1b4393c4")
 	)
 	(wire
 		(pts
@@ -6644,6 +6694,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 132.08) (xy 123.19 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9d85329-71f3-4db1-bf35-dea6479c3859")
+	)
+	(wire
+		(pts
 			(xy 86.36 160.02) (xy 86.36 157.48)
 		)
 		(stroke
@@ -6671,6 +6731,16 @@
 			(type default)
 		)
 		(uuid "e6a21797-631b-4bfd-a64b-0c75e2a6ec71")
+	)
+	(wire
+		(pts
+			(xy 162.56 92.71) (xy 162.56 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ada5b4-1f11-48c2-b99f-e61f1892f76d")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7202,7 +7272,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 111.76 0)
+		(at 110.49 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7211,7 +7281,7 @@
 		(fields_autoplaced yes)
 		(uuid "35f3876d-5fc8-4294-85df-b2f3e831d43d")
 		(property "Reference" "#PWR02"
-			(at 124.46 118.11 0)
+			(at 110.49 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7220,7 +7290,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 116.84 0)
+			(at 110.49 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7228,7 +7298,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 111.76 0)
+			(at 110.49 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7237,7 +7307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 111.76 0)
+			(at 110.49 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7246,7 +7316,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 111.76 0)
+			(at 110.49 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8418,7 +8488,7 @@
 	)
 	(symbol
 		(lib_id "Motor_Drive:DRV8834PWPR")
-		(at 99.06 66.04 0)
+		(at 97.79 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8427,7 +8497,7 @@
 		(fields_autoplaced yes)
 		(uuid "a05dff34-c5b4-4a6e-8b04-9fd6a0bea396")
 		(property "Reference" "IC2"
-			(at 124.46 58.42 0)
+			(at 123.19 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8435,7 +8505,7 @@
 			)
 		)
 		(property "Value" "DRV8834PWPR"
-			(at 124.46 60.96 0)
+			(at 123.19 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8443,7 +8513,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:HTSSOP-24-1EP_4.4x7.8mm_P0.65mm_EP3.2x5mm"
-			(at 146.05 160.96 0)
+			(at 144.78 171.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8453,7 +8523,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/DRV8834"
-			(at 146.05 260.96 0)
+			(at 144.78 271.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8463,7 +8533,7 @@
 			)
 		)
 		(property "Description" "2.2A Low Voltage Stepper w/ 32-step Indexer or Dual Brushed DC Motor Driver (Indexer or PH/EN Ctrl)"
-			(at 119.38 54.356 0)
+			(at 118.11 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8472,7 +8542,7 @@
 			)
 		)
 		(property "Height" "1.2"
-			(at 146.05 460.96 0)
+			(at 144.78 471.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8482,7 +8552,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-DRV8834PWPR"
-			(at 146.05 560.96 0)
+			(at 144.78 571.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8492,7 +8562,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8834PWPR?qs=UFc95S4Z4CYJbHHHrd3TVA%3D%3D"
-			(at 146.05 660.96 0)
+			(at 144.78 671.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8502,7 +8572,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 146.05 760.96 0)
+			(at 144.78 771.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8512,7 +8582,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DRV8834PWPR"
-			(at 146.05 860.96 0)
+			(at 144.78 871.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
